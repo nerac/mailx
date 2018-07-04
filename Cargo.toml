@@ -1,0 +1,9 @@
+[package]
+name = "mailx"
+version = "0.1.0"
+authors = ["Carles Iborra <kirdie@gmail.com>"]
+
+[dependencies]
+clap = {version = "2.31", features = ["yaml"]}
+resolv = "0.1.3"
+telnet = "0.1.0"

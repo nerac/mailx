@@ -1,0 +1,29 @@
+name: MailX
+version: "1.0"
+author: Carles Iborra
+about: Given a name and surname checks if mail exists
+args:
+    - domain:
+        short: d
+        long: domain
+        required: true
+        takes_value: true
+        help: Mail domain
+    - name:
+        short: n
+        long: name
+        required: true
+        takes_value: true
+        help: Name of the person
+    - surname:
+        short: s
+        long: surname
+        required: true
+        takes_value: true
+        help: Surname of the person
+    - verbose:
+        short: v
+        long: verbose
+        required: false
+        takes_value: false
+        help: Displays more information
